@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expense_tracking",
-    "slug": "expense_tracking",
+    "name": "advanced_expense_tracking",
+    "slug": "advanced_expense_tracking",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expensetracking",
+    "scheme": "advancedexpensetracking",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -32,8 +32,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ],
-      "expo-sqlite"
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
