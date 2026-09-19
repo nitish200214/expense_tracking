@@ -8,6 +8,18 @@ const withCustomManifest = (config) => {
     if (!androidManifest.application) return config;
     const application = androidManifest.application[0];
 
+    // Ensure tools namespace exists
+    if (!androidManifest.$['xmlns:tools']) {
+      androidManifest.$['xmlns:tools'] = 'http://schemas.android.com/tools';
+    }
+
+    // Fix Manifest Merger error for allowBackup
+    if (!application.$['tools:replace']) {
+      application.$['tools:replace'] = 'android:allowBackup';
+    } else if (!application.$['tools:replace'].includes('android:allowBackup')) {
+      application.$['tools:replace'] += ',android:allowBackup';
+    }
+
     // Add Notification Listener Service
     const notificationService = {
       $: {
