@@ -1,0 +1,11 @@
+{
+  "Food & Dining": ["swiggy", "zomato", "starbucks", "mcdonald", "kfc", "burger king", "domino", "food", "pizza", "nagarjuna andhra style", "eazydiner", "baskin robbins", "kulinary cravings llp"],
+  "Groceries": ["zepto", "blinkit", "instamart", "bigbasket", "grofers", "grocery", "supermarket", "reliance retail", "fruits and nuts"],
+  "Transport": ["uber", "ola", "rapido", "irctc", "makemytrip", "metro", "transport", "travel", "ticket", "yatri", "ixigo", "lner online", "karnataka state road", "bangalore metro"],
+  "Shopping": ["amazon", "amaz", "flipkart", "myntra", "nykaa", "dmart", "shopping", "mart", "adidas", "samsung", "pai international", "life style internati", "safari industries", "titancompany", "the souled store", "nykaa fashi"],
+  "Utilities": ["jio", "airtel", "vi", "bescom", "electricity", "recharge", "bill", "broadband"],
+  "Entertainment": ["netflix", "prime", "hotstar", "spotify", "subscription", "district movie", "google play", "openai"],
+  "Healthcare": ["pharmacy", "apollo", "medplus", "hospital", "clinic", "health"],
+  "Education": ["institute of actuaries", "actuarie", "school", "college", "university", "tuition"],
+  "Others": ["ms nitz enterprises", "eternal limited", "techmash soluti"]
+}
